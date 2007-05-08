@@ -1,8 +1,8 @@
 Name:    xmode
 Summary: X Window System (TM) and frame buffer modeline generator
 Version: 1.0
-Release: 2mdk
-Group:   System/XFree86
+Release: %mkrel 3
+Group:   System/X11
 License: GPL
 Source:  %{name}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
