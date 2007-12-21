@@ -5,6 +5,7 @@ Release: %mkrel 3
 Group:   System/X11
 License: GPL
 Source:  %{name}-%{version}.tar.bz2
+BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description
 X Window System (TM) and frame buffer modeline generator. If you don't
