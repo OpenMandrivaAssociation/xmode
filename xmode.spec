@@ -7,6 +7,7 @@ License: GPL
 Source:  %{name}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
+BuildRequires:	make
 %description
 X Window System (TM) and frame buffer modeline generator. If you don't
 know how to use this utility, just run it without any argument and you'll
